@@ -1,0 +1,163 @@
+@font-face {
+	font-family: 'Font4';
+	src: url('Fonts/Opificio-Serif/opificio-serif-regular-webfont.eot');
+	src: url('Fonts/Opificio-Serif/opificio-serif-regular-webfont.woff') format('woff'), 
+		 url('Fonts/Opificio-Serif/opificio-serif-regular-webfont.ttf')  format('truetype'),
+		 url('Fonts/Opificio-Serif/opificio-serif-regular-webfont.svg') format('svg'); 
+}
+body {
+	margin:0;
+	padding:0;
+	font-family:Font4;
+	background-color:White;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+}
+#header {
+	background-color:Black;
+	color:White;
+	text-align:center;
+	padding:10 0;
+	width:50%;
+	opacity:0.8;
+}
+#header, h1 {
+	font-size:50px;
+	margin:5 10;
+	margin-left:auto;
+	margin-right:auto;
+	opacity:0.8;
+}
+#nav {
+	width:92%;
+	opacity:0.8;
+}
+#nav, ul {
+	list-style-type:none;
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+#nav, li {
+	padding:5 20;
+	font-size:20px;
+	margin:10px;
+}
+a:hover {
+	background:white;
+}
+a {
+	text-decoration:none;
+	color:white;
+}
+li:hover {
+	background:white;
+	color:black;
+	border:white;
+}
+li {
+	background-color:black;
+	margin: 1 1;
+	border:3px solid Grey;
+	display:inline-block;
+}
+#p11
+{
+	position:inline;
+	text-align:center;
+	width:350px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	top:20px;
+	bottom:auto;
+	color:white;
+	background-color:black;
+	padding:20px;
+	opacity:0.8;
+}
+#p1,#pbottom {
+	position:relative;
+	text-align:center;
+	width:80%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	top:20px;
+	bottom:10%;
+	color:white;
+	background-color:black;
+	padding:20px;
+	opacity:0.8;
+}
+#pbottom {
+	margin-bottom:80px;
+	opacity:0.8;
+	height:auto;
+}
+#btt {
+	width:70px;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline;
+	opacity:0.8;
+}
+#btt,a:hover {
+	background-color:black;
+	opacity:0.8;
+}
+#social{
+	float:right;
+	display:inline;
+	opacity:0.8;
+}
+#email {
+	float:left;
+	display:inline;
+	margin-top:4px;
+	opacity:0.8;
+}
+#footer {
+	position: fixed;  
+	bottom: 0px;
+    background:black;
+    color:white;
+	font-size:15px;
+    width: 100%;
+	height:50px;
+	text-indent:5px;
+	text-align:center;
+}
+#form {
+	text-align:center;
+	position:inline;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 20px;
+	opacity:0.8;
+	color:white;
+}
+#button{
+	font-size:20px;
+	text-transform:uppercase;
+	color:white;
+	background-color:black;
+	border:3px solid grey;
+}
+#button:hover{
+	background-color:white;
+	color:black;
+	border:none;
+	cursor:pointer;	
+}
+#shirts {
+	padding:20px;	
+	margin:10px;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	opacity:0.8;
+}

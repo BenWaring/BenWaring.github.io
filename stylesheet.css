@@ -5,18 +5,6 @@
 		 url('Fonts/Opificio-Serif/opificio-serif-regular-webfont.ttf')  format('truetype'),
 		 url('Fonts/Opificio-Serif/opificio-serif-regular-webfont.svg') format('svg'); 
 }
-html {
-	font-family:Font4;
-	/*background-color:White;
-	background-repeat:no-repeat;
-	background-position:center;
-	background-attachment:fixed;*/
-    background: white; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, gray, #AFEEEE); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, gray, #AFEEEE); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, gray, #AFEEEE); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, gray, #AFEEEE); /* Standard*/
-}
 body {
 	margin:0;
 	padding:0;
@@ -29,7 +17,7 @@ body {
     background: -webkit-linear-gradient(left top, gray, #AFEEEE); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, gray, #AFEEEE); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, gray, #AFEEEE); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, gray, #AFEEEE); /* Standard*/
+    background: linear-gradient(to top left, gray, #AFEEEE); /* Standard*/
 }
 #header {
 	background-color:Black;
